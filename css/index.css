@@ -28,6 +28,17 @@ a{
     margin-left: 14px;
     line-height: 31.25px;
 }
+.cr{
+	background: red;
+}
+#ding {
+    width: 100%;
+    height: 50px;
+    background: #ff5577;
+    position: fixed;
+    top: -50px;
+    left: 0;
+}
 /* ========================全局样式结束==================== */
 /* ========================页面顶部开始==================== */
 .dingbu{
@@ -60,7 +71,7 @@ a{
 	color: #ff0036;
 }
 .headtop-you{
-	width:646px;
+	width:655px;
 	height: 32px;
 	float: right;
 }
@@ -70,6 +81,226 @@ a{
 	padding-right: 10px;
 	line-height: 12px;
 	margin-top: 10px;
+	position: relative;
+}
+
+#wzdh{
+	width: 1160px;
+	height: 0px;
+	background: #fff;
+	position: absolute;
+	top: 26px;
+	right: 0;
+	z-index: 99;
+	display: flex;
+	/* border-bottom: 0.1px solid rgba(0, 0, 0, 0.1); */
+	border-left: 0.1px solid rgba(0, 0, 0, 0.1);
+	border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+	overflow: hidden;
+	/* opacity: 0; */
+}
+.wzdh-box1{
+	width: 291px;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-content:space-around;
+	border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+.wzdh-box1 p{
+	width: 100%;
+	padding-left: 15px;
+	line-height:30px;
+	color: #ff0036;
+}
+.wzdh-box1 a{
+	width: 81px;
+	padding-left: 15px;
+	line-height: 30px;
+}
+.wzdh-box1 a:hover{
+	color: #ff0036!important;
+	text-decoration: underline;
+}
+.wzdh-box2 a:hover{
+	color: #ff0036!important;
+	text-decoration: underline;
+}
+.wzdh-box3 a:hover{
+	color: #ff0036!important;
+	text-decoration: underline;
+}
+.wzdh-box4 a:hover{
+	color: #ff0036!important;
+	text-decoration: underline;
+}
+.wzdh-box2{
+	width: 388px;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-content:space-around;
+	border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+.wzdh-box2 p{
+	width: 100%;
+	padding-left: 15px;
+	line-height:30px; 
+	color: #00C5CD;
+}
+.wzdh-box2 a{
+	width: 81px;
+	padding-left: 15px;
+	line-height: 30px;
+}
+.wzdh-box3{
+	width: 291px;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-content:space-around;
+	border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+.wzdh-box3 p{
+	width: 100%;
+	margin-left: 15px;
+	line-height:30px; 
+}
+.wzdh-box3 a{
+	width: 81px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.wzdh-box4{
+	width: 194px;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-content:space-around;
+}
+.wzdh-box4 p{
+	width: 100%;
+	padding-left: 15px;
+	line-height:30px; 
+	color: #666;
+}
+.wzdh-box4 a{
+	width:100%;
+	padding-left: 15px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+#sjzc{
+	width: 140px;
+	height: auto;
+	background:#fff;
+	position: absolute;
+	top: 26px;
+	right: 0;
+	z-index: 99;
+	display: none;
+}
+.sjzc-t{
+	padding: 0 10px;
+	width: calc(100% - 20px);
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content:space-around;
+	justify-content:space-around;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #999;
+}
+.sjzc-t h5{
+	width: 100%;
+	line-height: 30px;
+	font-size: 12px;
+}
+.sjzc-t a{
+	width: 60px;
+	line-height: 38px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+
+
+#swx{
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: -40px;
+	z-index: 99;
+	border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+	border-left: 0.1px solid rgba(0, 0, 0, 0.1);
+	border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+	display: none;
+}
+#wdsc{
+	width: 100px;
+	height: 80px;
+	background: #fff;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	z-index: 99;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#wdsc a{
+	display: block;
+	width: 100%;
+	height: 50%;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	text-decoration:underline;
+}
+#wdsc a:hover{
+	color: #ff0036;
+}
+#wdtb{
+	width: 100px;
+	height: 80px;
+	background: #fff;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	z-index: 99;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#wdtb a{
+	display: block;
+	width: 100%;
+	height: 50%;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	text-decoration:underline;
+
+}
+#wdtb a:hover{
+	color: #ff0036;
 }
 .headtop-you li:nth-child(2),.headtop-you li:nth-child(3),.headtop-you li:nth-child(5),.headtop-you li:last-child{
 	margin-top: 2px;
@@ -255,7 +486,8 @@ nav{
 .bannerbj{
 	width: 100%;
 	height: 500px;
-	background: #e8e8e8;
+	background: #FF4249;
+	transition: 2s;
 }
 .banner-box{
 	width: 1230px;
@@ -270,6 +502,7 @@ nav{
 .banner li{
 	position: absolute;
 	top: 0;
+	transition: 2s;
 }
 .banner li a img{
 	width: 1230px;
@@ -287,7 +520,111 @@ nav{
 	width: 200px;
 	height: 31.25px;
 	color: #ffffff;
+	position: relative;
 }
+.lanmu{
+	width: 800px;
+	height: 500px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	z-index: 99999;
+	/* z-index: 9; */
+	display: none;
+	border-bottom: 1px solid #999;
+	/* display: flex; */
+}
+.lm-zzz{
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+.lm-zzz li{
+	width: calc(100% - 40px);
+	height: calc(95% / 7);
+	margin: 0 20px;
+}
+.lmz-zzz{
+	width: calc(20% - 30px);
+	line-height: 50px;
+	float: left;
+	padding:0 15px;
+	font-size: 14px;
+}
+.lmz-yyy{
+	width: calc(80% - 20px);
+	height: calc(100% - 30px);
+	float: left;
+	padding:15px 10px;
+	font-size: 12px;
+	border-bottom: 1px dashed #999;
+}
+.lmz-yyy p{
+	line-height: 20px;
+}
+.lmz-yyy p span{
+	color: #ff6700;
+}
+.lm-yyy{
+	width: calc(25% - 10px);
+	height: calc(100% - 10px);
+	float: left;
+	padding: 5px;
+}
+.lm-yyy	li{
+	width: 100%;
+	height: calc(100% / 9 - 5px);
+	padding-bottom: 5px;
+}
+.lm-yyy	li img{
+	display: block;
+	width: 95%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .aside li:hover{
 	background: #ffffff;
 }
@@ -404,6 +741,7 @@ nav{
 	margin-left:auto;
 	margin-right:auto;
 	bottom: 27px;
+	z-index: 9999;
 }
 .banner-dian li{
 	width: 25px;
@@ -411,6 +749,7 @@ nav{
 	background: #a3a3a3;
 	float: left;
 	margin-right: 9px;
+
 }
 .banner-dian li:last-child{
 	margin-right: 0px;
@@ -765,8 +1104,8 @@ nav{
 	text-align: center;
 }
 .xhz-zuo:hover{
-	background: #f1f1f1;
-	color: #000000;
+	/* background: #f1f1f1; */
+	/* color: #000000; */
 }
 .xhz-you{
 	width: 231px;
@@ -778,7 +1117,7 @@ nav{
 	text-align: center;
 }
 .xhz-you:hover{
-	background: #00b262;
+	/* background: #00b262; */
 	color: #ffffff;
 }
 .xbox-hz2{
@@ -1333,12 +1672,13 @@ nav{
 /* ========================底部结束==================== */
 /* 左边 */
 .zuobian{
-	width: 37px;
-	height: 370px;
+	width: 0px;
+	height: 0px;
 	background: #626262;
 	position: fixed;
 	bottom: 80px;
-	left: 280px;
+	left: 0px;
+    display:none;
 }
 .zuobian li{
 	width: 37px;
